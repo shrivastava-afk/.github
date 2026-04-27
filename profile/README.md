@@ -23,9 +23,9 @@ A Kubernetes operator that enforces security by automatically injecting Nginx si
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![K8s](https://img.shields.io/badge/Operator_SDK-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 
-### [Kubuto](https://github.com/shrivastava-afk/kubuto)
+### [Kubuto](https://github.com/shrivastava-afk/kubuto) (Work in Progress)
 *Your Cluster Companion.*
-A CLI tool designed to solve the "deprecation hell" of Kubernetes upgrades. It checks your deployed resources against target Kubernetes versions to identify API incompatibilities and suggests remediation.
+A CLI tool designed to solve the "deprecation hell" of Kubernetes upgrades. It checks your deployed helm charts/Argo Apps/Flux Apps against target Kubernetes versions to identify whether they are compatible and suggests correct versions according to the official compatibility matrix.
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![K8s API](https://img.shields.io/badge/Kubernetes_API-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 
